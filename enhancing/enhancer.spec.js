@@ -57,8 +57,7 @@ describe( "enhancer unit tests", () => {
     if ( item.enhancement === 0 ) {
       expect( mewItem.name).toBe( item.name )
     } else if ( item.enhancement > 0 ) {
-      expect( mewItem.name ).toBe( item.name ) 
+      expect( mewItem.name ).toBe( "[+4] Staff of the Fainting Goat" )  
     }
   } )
 } )
-//"[+4] Staff of the Fainting Goat"
